@@ -1,54 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *
 {
     box-sizing: border-box !important;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.nav-link{
+.nav-link, .table, p
+{
     color: white !important;
 }
 .vip{
-    background-color: rgb(14,33,47);
+    background-color: black;
+     /* rgb(14,33,47); */
 }
 
-.bg{
+.bg, .bg1, .bg2, .bg3
+{
     background-image: url('image/Bk81.jpg');
-    height: 100vh;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: cover;
 }
-
-.bg1{
+.bg
+{
+    background-position: top right;
+}
+.bg1
+{
     background-image: url('image/upgrade-background.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size:100%;
 }
 
-.bg2{
+.bg2
+{
     background-image: url('image/referral-background.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size:100%;
 }
 
-.bg3{
+.bg3
+{
     background-image: url('image/join-background.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size:100%;
 }
 
-
- .table{
-    color: white;
- }
- h5{
-color:gold;
- }
-
- h6{
+ h1,h2,h3,h4,h5,h6
+{
     color:gold;
-     }
-p{
-    color: white;
-}
+ }
+ th
+ {
+    color: greenyellow;
+ }
+
+ 
+
